@@ -1,0 +1,25 @@
+### `.gitignore`
+
+Ignore Python compiled files
+*.pyc pycache/
+
+Ignore virtual environments
+venv/ ENV/ env/ venv.bak/
+
+Ignore logs and temporary files
+*.log *.csv *.json
+
+Ignore OS-specific files
+.DS_Store Thumbs.db
+
+Ignore WebDriver executables
+chromedriver.exe geckodriver.exe
+
+Ignore Scrapy output files
+output.json
+
+vbnet
+Copy code
+
+
+This **README.md** provides an overview of the project, installation steps, and usage, while the **.gitignore** ensures that unnecessary or sensitive files (like virtual environments, OS-specific files, and logs) don't get committed to your repository. You can tweak both as needed for your project!
